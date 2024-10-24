@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 1050px;
+    background-color: #F0F0F0;
+}
+
+.header {
+    background-color: #826141;
+    padding: 15px;
+    text-align: center;
+    color: white;
+    
+}
+.header :hover {
+    color: rgb(68, 35, 16);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    width: 150px;
+    height: auto;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    margin: 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px;
+    color: #333;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+   
+}
+
+.form-box {
+    background-color: #30744F;
+    padding: 40px;
+    border-radius: 8px;
+    width: 30%;
+}
+
+.form-box textarea {
+    width: 100%;
+    height: 70px;
+    border-radius: 18px;
+    border: none;
+
+    
+}
+
+.form-box button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ccc;
+    border-radius: 10px;
+    border: none;
+    color: black;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.form-box button:hover {
+    background-color: #9b8e7e34;
+    color: rgb(255, 255, 255);
+}
+.form-box .input2:hover {
+    background-color: #456d446c;
+    color: rgb(255, 255, 255);
+}
+
+ .input2{
+    width: 97%;
+    padding: 10px;
+    margin: 10px 5px;
+    border-radius: 18px;
+    border: 1px solid #ccc;
+    font-size: 16px;    
+    border: none;
+}
+
+
+
+footer {
+    background-color: #826141;
+    color: white;
+    padding: 20px;
+}
+
+.contato {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.horarios {
+    display: flex;
+    flex-direction: column;
+    align-items: end; 
+}
