@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 1100px;
+    background-color: #051707;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    width: 150px;
+    height: auto;
+}
+
+nav {
+    margin-top: 10px;
+    display: flex;
+    padding: 20px;
+}
+
+nav a {
+    margin: 15px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+figure .carro{
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+
+}
+
+
+
+.container-card-oficina{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    
+
+}
+.card{
+    width: 13rem;
+    padding: 5px;
+    background-color: #160e09e0;
+    color: #fff;
+    border-radius: 20px;
+    height: 100%;
+    border: none;
+    align-items: center;
+    font-size: 20px;
+
+
+}
+
+.situacoes{
+    color: #fff;
+}
+
+.nossamecanica{
+    padding: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: #130a0260;
+    color: white;
+    
+}
+
+
